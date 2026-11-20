@@ -1,1 +1,1 @@
-# galaxy
+small python turtle program: galaxy
