@@ -1,5 +1,5 @@
-small python turtle program: galaxy
-
-...to infinity, and beyond
+small python turtle programs: galaxy
 
 ---and a heart 
+
+...to infinity, and beyond
