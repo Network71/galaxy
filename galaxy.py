@@ -68,11 +68,17 @@ def sparkle():
         place(r * math.cos(a), r * math.sin(a))
         t.dot(random.randint(5,8), "white")
 
-stars()
-dust()
-arms(900)
-core()
-sparkle()
-t.goto(0,0)
-t.dot(26, "#fff3c4")
-turtle.done()
+def draw_galaxy():
+    t.clear()
+    stars()
+    dust()
+    arms(900)
+    core()
+    sparkle()
+    t.goto(0,0)
+    t.dot(26, "#fff3c4")
+    screen.update()
+
+while True:
+    draw_galaxy()
+    screen.delay(1000)
